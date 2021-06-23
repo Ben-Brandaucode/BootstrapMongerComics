@@ -5,9 +5,20 @@ body{
 h1,h2,h3{
     font-family: 'Courier New', Courier, monospace;
 }
+a {
+    color: black;
+}
+
+
 .jumbotron{
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right,#0CB06E,black,#0CB06E);
+    background-image: linear-gradient(to right,#0CB06E,#0CB06E,#0CB06E,black,red,#0CB06E);
     color: white; 
+}
+.navbar {
+    background-color: #0CB06E;
+    border:2px solid green;
+    outline-color:red;  
+    outline-style:double;
 }

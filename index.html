@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- required meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monger Comics-Fun and excitement</title>
+     
+<!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+ <!-- CSS call -->
+    <link rel="stylesheet" href="css/styles.css" />
+     
+     <title>Monger Comics-Fun and excitement</title>
+
 </head>
 <body>
-    <div>
-        <h2>Monger Comics</h2>
-        <h3>(our Campsite)Fun and excitement from rowdy artists in Bucks County PA</h3>
-        <p>Explore our growing database of curated campsites and leave your own reviews!</p>
-    </div>
-
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <h3>Monger Comics</h2>
+                    <h3>(our Campsite)Fun and excitement from rowdy artists in Bucks County PA</h3>
+                    <p>Explore our growing database of curated campsites and leave your own reviews!</p>
+                </div>
+            </div>
+        </div>
+    </header> 
     <div>
         <h2>Featured Artists</h2>
         <h3>React Lake Campground</h3>
@@ -47,5 +60,10 @@
             Email: campsites@nucamp.co
         </div>
     </footer>  
+<!-- jQuery, then Popper.js, then Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </body>
 </html>

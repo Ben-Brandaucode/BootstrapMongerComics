@@ -1,0 +1,13 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1,h2,h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+.jumbotron{
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right,#0CB06E,black,#0CB06E);
+    color: white; 
+}
